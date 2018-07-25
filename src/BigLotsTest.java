@@ -12,7 +12,8 @@ public class BigLotsTest
 		driver=new ChromeDriver();
 		driver.get("http://www.biglots.com/");
 		driver.navigate().refresh();
-		driver.manage().window().maximize();
+		driver.manage().window();
+		
 		
 	}
 }
